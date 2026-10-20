@@ -2,6 +2,12 @@
 
 **Procedural, animation-ready Eiffel Tower rebuilt from a single reference image as modular Three.js code.**
 
+[![CI](https://github.com/Tudor1713/eiffel-tower-threejs/actions/workflows/ci.yml/badge.svg)](https://github.com/Tudor1713/eiffel-tower-threejs/actions/workflows/ci.yml)
+[![Deploy](https://github.com/Tudor1713/eiffel-tower-threejs/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/Tudor1713/eiffel-tower-threejs/actions/workflows/deploy-pages.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+**▶ Live demo: <https://tudor1713.github.io/eiffel-tower-threejs/>**
+
 ![Hero render](screenshots/hero.png)
 
 从一张参考图重建的**可编辑、可动画、可复现**的程序化巴黎铁塔资产：TypeScript + 原生 Three.js，

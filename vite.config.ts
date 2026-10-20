@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 
-// Dev server used by the media2threejs capture adapter.
-// The ignore pattern avoids Windows EBUSY crashes when an editor writes files
-// through a temporary directory inside the watched source tree.
+// Relative base keeps the build working both locally and under a GitHub Pages
+// project sub-path (https://<user>.github.io/eiffel-tower-threejs/).
 export default defineConfig({
+  base: './',
   server: {
     host: '127.0.0.1',
     port: 4319,
