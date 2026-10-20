@@ -1,0 +1,1 @@
+export function installErrorOverlay():void{window.addEventListener('error',event=>{const panel=document.createElement('pre');panel.textContent=`Runtime error: ${event.message}`;Object.assign(panel.style,{position:'fixed',inset:'0 0 auto 0',background:'#640b16',color:'white',padding:'12px',zIndex:'99'});document.body.append(panel);});}

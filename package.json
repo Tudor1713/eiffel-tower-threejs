@@ -1,0 +1,31 @@
+{
+  "name": "eiffel-tower-threejs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A procedural, animation-ready Eiffel Tower rebuilt from a single reference image as modular Three.js code.",
+  "license": "MIT",
+  "keywords": [
+    "threejs",
+    "procedural-geometry",
+    "eiffel-tower",
+    "webgl",
+    "typescript",
+    "vite"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.3"
+  }
+}
